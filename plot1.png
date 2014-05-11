@@ -1,0 +1,7 @@
+#Generates Plot1
+
+png("plot1.png", width = 480, height = 480)
+
+hist(as.numeric(subset$Global_active_power), col="red",main = "Global Active Power",xlab="Global Active Powe(kilowatts)")
+
+dev.off()
